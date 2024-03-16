@@ -1,6 +1,4 @@
 
-//this
-
 #include <fstream>
 #include <iostream>
 #include <string>
@@ -61,6 +59,12 @@ void identifier(char* currentBuffer, ofstream& outFile) {
         ch = currentBuffer[bufferIndex];
     }
 }
+
+/*
+This is a multiline comment in C++.
+It can span multiple lines and is used to provide
+detailed explanations or notes within the code.
+*/
 
 int main() {
     ifstream inFile("lab_2.cpp");
