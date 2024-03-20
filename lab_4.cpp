@@ -1,5 +1,8 @@
 #include <iostream>
 #include <string>
+using namespace std;
+
+
 
 struct Rule {
     std::string r;
@@ -160,15 +163,17 @@ void deleteRuleOfProduction(Production* start, const std::string& prodName, cons
     
     // Display the CFG
     displayCFG(start);
+
+    cout<<"After deleting the production A"<<endl;
     
     // Delete specific rule "dB" of production A
     deleteRuleOfProduction(start, "A", "dB");
     
     // Display the CFG after deleting the specific rule
-    displayCFG(start);
+     displayCFG(start);
     
-    // Free memory
-    freeCFG(start);
+    // // Free memory
+    // freeCFG(start);
     
     return 0;
 
