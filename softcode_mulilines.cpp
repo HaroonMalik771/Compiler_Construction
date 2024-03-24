@@ -36,7 +36,7 @@ STATE nextState(STATE currentState, char ch) {
 }
 
 int main() {
-    ifstream inFile("lab_2.cpp"); // Replace "input.cpp" with your input file name
+    ifstream inFile("lab_2.cpp"); 
     if (!inFile) {
         cout << "Error: Unable to open input file." << endl;
         return 1;
