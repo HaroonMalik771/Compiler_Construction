@@ -5,7 +5,21 @@
 #include <sstream>
 #include <cctype>
 
+   /*
+This is a multiline comment in C++.
+It can span multiple lines and is used to provide
+detailed explanations or notes within the code.
+*/
+
+
+
 using namespace std;
+   /*
+This is a multiline comment in C++.
+It can span multiple lines and is used to provide
+detailed explanations or notes within the code.
+*/
+
 
 const int BUFFER_SIZE = 4096;
 
@@ -60,11 +74,7 @@ void identifier(char* currentBuffer, ofstream& outFile) {
     }
 }
 
-/*
-This is a multiline comment in C++.
-It can span multiple lines and is used to provide
-detailed explanations or notes within the code.
-*/
+
 
 int main() {
     ifstream inFile("lab_2.cpp");
@@ -86,6 +96,10 @@ int main() {
     } else {
         cout << "Unable to open file for reading or writing";
     }
+ 
 
     return 0;
 }
+
+
+
